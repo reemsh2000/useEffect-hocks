@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-// https://api.giphy.com/v1/gifs/search?api_key=&limit=2q=cry
 function Exersise3() {
   const [value, setValue] = useState('')
   const [result, setResult] = useState([])
