@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 function Exersise4() {
-  const [value, setValue] = useState('https://robohash.org/reem');
-  const [result, setResult] = useState('');
+  const [value, setValue] = useState("https://robohash.org/reem");
+  const [result, setResult] = useState("");
   useEffect(() => {
     setResult(`https://robohash.org/${value}`);
 
@@ -24,9 +24,8 @@ function Exersise4() {
       />
       <br />
       <br />
-      <div className="giff">
-          <img src={result} alt='imag'/>
-          </div>
+
+      <img src={result} alt="imag" />
     </div>
   );
 }
